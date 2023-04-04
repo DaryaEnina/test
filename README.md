@@ -1,6 +1,6 @@
 # Test Task 
 
-## deploy: https://github.com/DaryaEnina/test/settings/pages
+## deploy: https://daryaenina.github.io/test/
 
 ## screen: 
 ![image](https://user-images.githubusercontent.com/78152480/229892249-b866a73b-6f83-4f79-80ff-8b10a5692614.png)
