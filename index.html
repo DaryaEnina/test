@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Регистрация</h2>
+        <div class="form-control">
+          <label for="firstName">Имя</label>
+          <input type="text" id="firstName" placeholder="Введите имя" />
+          <div class="error-message" id="firstName-error"></div>
+        </div>
+        <div class="form-control">
+          <label for="lastName">Фамилия</label>
+          <input type="text" id="lastName" placeholder="Введите фамилию" />
+          <div class="error-message" id="last-name-error"></div>
+        </div>
+        <div class="form-control">
+          <label for="lastName">Дата рождения</label>
+          <input
+            type="date"
+            id="birthdate"
+            max=""
+            placeholder="Введите фамилию"
+          />
+          <div class="error-message" id="birthdate-error"></div>
+        </div>
+        <div class="form-control">
+          <label for="email">Электронная почта</label>
+          <input
+            type="text"
+            id="email"
+            placeholder="Введите электронную почту"
+          />
+          <div class="error-message" id="email-error"></div>
+        </div>
+        <div class="form-control">
+          <label for="password">Пароль</label>
+          <input type="password" id="password" placeholder="Введите пароль" />
+          <div class="error-message" id="password-error"></div>
+        </div>
+        <div class="form-control">
+          <label for="confirmPassword">Подтверждение пароля</label>
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="Подтвердите пароль"
+          />
+          <div class="error-message" id="confirm-password-error"></div>
+        </div>
+        <button>Зарегистрироваться</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
